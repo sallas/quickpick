@@ -1,0 +1,26 @@
+{
+  "name": "QuickPick",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "directories": {
+    "test": "specs"
+  },
+  "scripts": {
+    "test": "mocha specs/*_spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "should": "^11.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "fetch": "^1.1.0",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.10.6"
+  }
+}
