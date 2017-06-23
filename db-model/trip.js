@@ -5,9 +5,11 @@ functions.schema = {
 	endLocation: String,
 	containerID: Number,
 	completed: Boolean,
-	truckID: Number
+	truckID: Number,
+	longitude: Number,
+	latitude: Number
 }
 
-functions.create = (id, endLocation, containerID, completed, truckID) => ({id, endLocation, containerID, completed, truckID});
+functions.create = (id, endLocation, containerID, completed, truckID, longitude, latitude) => ({id, endLocation, containerID, completed, truckID, longitude, latitude});
 
 module.exports = functions;

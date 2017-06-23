@@ -5,8 +5,8 @@ let db = require('../util/db_config');
 router.get('/', (req, res) => {
 	db.models.Trip.find({})
 		.then(data => {
-			res.status(200);
-  		res.json(data);
+				res.status(200);
+				res.json(data);
 		});
 });
 
